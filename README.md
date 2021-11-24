@@ -10,7 +10,7 @@
 - Hệ thống ban quản trị: 
 + BGH nhà trường, y tế, kết toán, thư viện, đoàn trường.
 + Công cụ: Xếp thời khóa biểu, xếp danh sách thứ tự, lớp học của học sinh.
-III.1. Cloud Schools (CS): Hệ thống trường học phục vụ cho nhà trường, giáo viên, học sinh và phụ huynh
+## III.1. Cloud Schools (CS): Hệ thống trường học phục vụ cho nhà trường, giáo viên, học sinh và phụ huynh
 III.1.1. Website:
 a. Trường học:
 - Thông tin nhà trường: lịch sử nhà trường, nội qui - qui định về thời gian mở, đóng cổng, thời gian giải lao giữa các tiết.
@@ -38,7 +38,7 @@ c. Lớp học:
 + Hiện thời gian phong trào đã đăng ký, ngày kiểm tra, nghỉ học, thi
 - Học thêm: Hiện: Đăng ký, lịch học, …
 - Học bạ: Xem được học bạ về niên khóa, điểm, học lực, hạnh kiểm, …; Có chức năng xuất file pdf, word, hình ảnh, …
-III.1.2. Wang Jack (WJ) 
+## III.1.2. Wang Jack (WJ) 
 WJ là nơi học sinh đăng bài biết về khó khăn trong học tập, chia sẻ những tâm tư của mình.
 a. Website – App:
 * Diễn đàn
@@ -62,9 +62,9 @@ b. App:
 - Nạp tiền: Thẻ ngân hàng, card điện thoại, ví điện tử: Momo, Viettelpay, ...
 - Chuyển tiền: Trong hệ thống NAP, …
 - Thanh toán: Khi mua đồ ở căn tin, mua đồng phục ở trường, đóng tiền học phí, …
-III.1.4. LOVE HOME (LH): Cấp học bổng cho những học sinh có hoàn cảnh khó khăn. Nơi học sinh gửi thông tin cho nhà trường về học sinh có hoàn cảnh khó khăn trong trường.
+## III.1.4. LOVE HOME (LH): Cấp học bổng cho những học sinh có hoàn cảnh khó khăn. Nơi học sinh gửi thông tin cho nhà trường về học sinh có hoàn cảnh khó khăn trong trường.
 - Nền tảng: Website, phần mềm trên điện thoại, máy tính.
-III.1.5. Library (Thư viện)
+## III.1.5. Library (Thư viện)
 Hệ thống thư viện online, hiện đại, giải quyết công tác quản lý thư viện, …
 a. Website – Phần mềm:
 - Theo dõi sách online: Xem tình trạng sách có trong thư viện không, chừng nào có thông báo đến tài khoản theo dõi sách đó.
@@ -75,7 +75,7 @@ a. Website – Phần mềm:
 - Bỏ phiếu mua sách mới ở trường học.
  b. Phần mềm (App):
 - Tải sách để đọc khi không có mạng
-III.1.6. LAL (Learn a language)
+## III.1.6. LAL (Learn a language)
 a Website:
 - Từ của bạn
 - Từ đã tra
@@ -84,7 +84,7 @@ a Website:
 b. App:
 - Khóa màng hình học từ vựng.
 - Nhắc nhở học từ vựng - Thư mục nhắc nhở (Từ đã lưu, từ đang học).
-III.1.7. Các nền tảng cùng thệ thống
+## III.1.7. Các nền tảng cùng thệ thống
 - Notes: Chứa những ghi chú học sinh
 - FileLive: Nơi lưu trữ đồng bộ hóa Online
 - ImgLive: Nơi lưu trữ hình ảnh Online
@@ -92,7 +92,7 @@ III.1.7. Các nền tảng cùng thệ thống
 + Nơi chia sẻ video của mình, người dùng có thể tải lên học tải xuống.
  		+ Phần mềm – App: Tải video để xem khi không có mạng.
 - Nat Chat: Dịch vụ email gửi thư, đính kèm file
-III.1.8. Công cụ:
+## III.1.8. Công cụ:
 a. Nghỉ phép Online: 
 - Liên kết Sổ đầu bài, Giáo viên xác nhận nghỉ thành công đồng thời hệ thống gửi thông báo cho học sinh.
 - Cách thực hiện: Phụ huynh “Ghi âm bằng giọng nói”, Giáo viên bộ môn quét mã QR.
@@ -103,12 +103,12 @@ b. Sổ đầu bài:
 - Thứ 7 – 18 giờ: Tổng kết sổ (Hạng nhất, nhì, ba: Ba khối) đồng thời xuất file âm thanh google.
 - Đọc tổng kết đầu tuần: Lấy từ dữ liệu ‘Tổng kết sổ đầu bài’.
 - Tích hợp: Nghỉ học online, …
-IV. Các thiết bị
+# IV. Các thiết bị
 - Máy điểm danh (Máy điểm danh bằng QR và khuôn mặt)
 - Máy thanh toán (NAP): Mã vạch học sinh -> Mã PIN -> Danh sách mua đồ -> Thanh toán -> Thông báo điện thoại.
 - Máy tính có màn hình cảm ứng để học sinh đăng nhập bằng mã học sinh và PIN giúp học sinh xem điểm của mình, lịch phong trào, tham gia phong trào, ...
 - Tự động xử lý văn bản hình ảnh hồ sơ thi tuyển sinh lớp 10 vào hệ thống ISOS.
-V. AI (Artificial intelligence: Trí tuệ nhân tạo)
+# V. AI (Artificial intelligence: Trí tuệ nhân tạo)
 V.1. Hệ thống:
 - Nhập thông tin học sinh từ học bạ, thi tuyển 10, …
 - Tự động chiều thứ 7 lúc 17 giờ tổng kết sổ đầu bài -Về hạng và vi phạm- rồi xuất hai thư mục âm thanh ‘Tổng kết tuần’ sáng - chiều cho tiết chào cờ thứ 2
