@@ -12,7 +12,7 @@
 + BGH nhà trường, y tế, kết toán, thư viện, đoàn trường.
 + Công cụ: Xếp thời khóa biểu, xếp danh sách thứ tự, lớp học của học sinh.
 ## III.1. Cloud Schools (CS): Hệ thống trường học phục vụ cho nhà trường, giáo viên, học sinh và phụ huynh
-III.1.1. Website:
+### III.1.1. Website:
 a. Trường học:
 - Thông tin nhà trường: lịch sử nhà trường, nội qui - qui định về thời gian mở, đóng cổng, thời gian giải lao giữa các tiết.
 - Giáo viên: Để học sinh biết thông tin về giáo viên (Hình ảnh, tên, sinh nhật, bộ môn.)
@@ -57,7 +57,7 @@ a. Website – App:
 - Chuyên môn: hiện các công thức, dạng bài tập, video. Toán học, Vật lý, Hóa học (Video: chất kết tủa, chất bay hơi, …, công thức; hình ảnh, tính chất vật lý, tính chất hóa học), Tiếng anh, Sinh học, Địa lý, GDCD, Văn học, …
 b. App:
 - Tải các bài kiểm tra để có thể xem và thi thử khi không có mạng.
- III.1.3. Ví điện tử (NAP)
+## III.1.3. Ví điện tử (NAP)
 - Thẻ học sinh như là thẻ ATM thông qua mã QR.
 - Thanh toán khi mua đồ:
 - Nạp tiền: Thẻ ngân hàng, card điện thoại, ví điện tử: Momo, Viettelpay, ...
@@ -91,7 +91,7 @@ b. App:
 - ImgLive: Nơi lưu trữ hình ảnh Online
 - Muvic: 
 + Nơi chia sẻ video của mình, người dùng có thể tải lên học tải xuống.
- 		+ Phần mềm – App: Tải video để xem khi không có mạng.
++ Phần mềm – App: Tải video để xem khi không có mạng.
 - Nat Chat: Dịch vụ email gửi thư, đính kèm file
 ## III.1.8. Công cụ:
 a. Nghỉ phép Online: 
