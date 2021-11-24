@@ -1,5 +1,5 @@
 # ISOS - Information system on school - Hệ thống học sinh
-**26/01/2021 - Giải nhất - Tập thể - Cấp trường.**
+**26/01/2021 - Giải nhất - Tập thể - Cấp trường THPT Lưu Tấn Phát**
 - Hệ thống học sinh: Gồm có Cloud Schools, Wang Jack, Nap, Library, Love Home, Notes, FileLive, ImgLive, Muvic, NatChat.
 - Thủ quỹ: Tạo đơn thu tiền.
 - Lớp trưởng: Tạo thông báo cho lớp, Điểm danh sổ đầu bài, Vi phạm: Hiện danh sách học sinh -> Chọn học sinh -> Khung hiện: Nội dung vi phạm có “Nội quy”, “Học tập”, “Vệ sinh” và khung lý do vi phạm: Danh sách lý do vi phạm -> Chọn nút ‘THÊM’.
