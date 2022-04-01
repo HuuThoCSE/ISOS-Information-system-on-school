@@ -1,0 +1,130 @@
+{% extends "pages/base.html" %}
+
+{% block title %}Schools Schools{% endblock  %}
+{% load static %}
+{% block content %}
+<style>
+    button {
+        list-style-type: none;
+    }
+    body {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+    }
+    </style>
+    
+    
+    
+    <div class="row">
+        <div class="col-3 mt-5">
+        <ul class="list-group">
+                    <span class="list-group-item active" onclick="window.location.href='#truonghoc'" id="truonghochoc">TRƯỜNG HỌC</span>
+                    <button class="list-group-item">THÔNG TIN</button>
+                    <button class="list-group-item" onclick="window.location.href='map'">PHÒNG HỌC</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/giaovien'">GIÁO VIÊN</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/tncs'">ĐOÀN TRƯỜNG</button>
+                    <button class="list-group-item" onclick="window.location.href='clb'">CÂU LẠC BỘ</button>
+                    <button class="list-group-item">TIN TỨC - THÔNG BÁO</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/tkb/all'">THỜI KHÓA BIỂU TỔNG</button>
+                    <button onclick="window.location.href='/mark'" class="list-group-item" hidden>COI ĐIỂM</button>
+                </ul> <br>
+        </div>
+        <div class="col-3 mt-5">
+                <ul class="list-group">
+                    <span class="list-group-item active" onclick="window.location.href='#lophoc'" id="lophoc">LỚP HỌC</span>
+                    <button class="list-group-item" onclick="window.location.href='cs/class/map'">SƠ ĐỒ LỚP</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/class/lq'">CÂU HỎI BÀI HỌC</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/class/bill'">ĐÓNG TIỀN</button>
+                    <button class="list-group-item" onclick="window.location.href='class'">THÔNG TIN</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/class/chat'">TRÒ CHUYỆN</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/tkb/class'">THỜI KHÓA BIỂU</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/class/mem'">THÀNH VIÊN</button>
+                    <button class="list-group-item" onclick="window.location.href='cs/sdb'">SỔ ĐẦU BÀI</button>
+                    <button class="list-group-item" onclick="window.location.href='/class/thongbao'">THÔNG BÁO - HOẠT ĐỘNG</button>
+                </ul> <br>
+                <ul class="list-group">
+                    <button class="list-group-item active" onclick="window.location.href='#congcu'" id="congcu">CÔNG CỤ</button>
+                    <button onclick="window.location.href='tools/donnghiphep'" class="list-group-item">ĐƠN NGHỈ PHÉP</button>
+                    <button onclick="window.location.href='tools/nghiphep'" class="list-group-item">NGHỈ PHÉP 4.0</button>
+                </ul> <br>
+                <ul class="list-group">
+                    <span class="list-group-item active" onclick="window.location.href='#caidat'" id='caidat'>CÀI ĐẶT</span> 
+                    <button onclick="window.location.href='setting#account'" class="list-group-item">TÀI KHOẢN</button>
+                    <button onclick="window.location.href='setting#video'" class="list-group-item">VIDEO</button>
+                </ul> <br>
+        </div>
+        <!-- gv -->
+        <!-- hieu truong -->
+        <!-- pho hieu truong -->
+        <div class="col-3 mt-5">
+                <ul class="list-group text">
+                    <span class="list-group-item active" onclick="window.location.href='#taikhoan'" id="taikhoan">TÀI KHOẢN</span>
+                    <li class='list-group-item text-left'>
+                        <strong>Trường:</strong> <br>
+                        <strong>Họ và tên:</strong> <br>
+                        <strong>Lớp:</strong> <br>
+                    </li>
+                    <button onclick="window.location.href='/'" class='btn btn-danger'>ĐĂNG XUẤT</button>
+                </ul> <br>
+    
+                <ul class='list-group'>
+                    <button onclick="window.location.href='gopy'" class="btn btn-primary">GÓP Ý</button>
+                </ul>
+        </div>  
+
+        <div>
+            <div class='list-group'>
+                <div class='list-group-item active text-center'>THÔNG TIN</div>
+                <div class='list-group-item'>
+                    <strong>Lớp:</strong> <br>
+                    <strong>Giáo viên chủ nhiệm:</strong>
+                </div> <br>
+            </div>
+        
+            <div class="list-group">
+                <div class="list-group-item active text-center">CÁN SỰ LỚP</div> 
+                <div class="list-group-item">
+                    <strong>Lớp trưởng:</strong> <br>
+                    <strong>Phó học tập:</strong> <br>
+                    <strong>Phó lao động:</strong> <br>
+                    <strong>Thủ quỹ:</strong> <br>
+                </div>
+            </div> <br>
+        
+            <div class="list-group">
+                <div class="list-group-item active text-center">CÁN SỰ ĐOÀN</div> 
+                <div class="list-group-item">
+                    <strong>Bí thư:</strong> <br>
+                    <strong>Phó bí thư:</strong> <br>
+                    <strong>Ủy viên</strong> <br>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+                <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
+                  &#9776;
+                </button>
+                <a class="navbar-brand text-white" href="/trangchu">Cloud Schools</a>
+                <a class="mx-auto text-center text-white navbar-brand">THÔNG TIN</a>
+                <a class="mx-auto text-center text-white navbar-brand" onclick="weblhd()">LỊCH HOẠT ĐỘNG</a>
+                <a class="mx-auto text-center text-white navbar-brand">THÀNH VIÊN</a>
+                <a class="mx-auto text-center text-white navbar-brand">THÔNG BÁO</a>
+                <a class="mx-auto text-center text-white navbar-brand">CLB KHÁC</a>
+            </nav> <br>
+        
+            <div class="container border rounded">
+                <h1 class="text-center">THÔNG TIN</h1>
+                Sẻ được kĩ năng:
+            </div>
+        <script>
+        function weblhd(){window.location.href="/clb/lhd"}    
+        </script>
+        
+        <form action="">
+                <h1></h1>
+                Nhóm trưởng <br>
+                Danh sách thành viên <br>
+            </form>   
+        </div>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "pages/base.html" %}
+
+{% block title %}Thông tin trường học{% endblock  %}
+{% load static %}
+{% block content %}
+<div align='center'>
+    <input type="text">
+    <button type="submit">Tìm</button>
+</div>
+<div>
+    <section>
+        <option value="">Tiền Giang</option>
+    </section>
+</div>
+
+<div>
+    <a href="">Lịch sử nhà trường</a>
+    <a href="">Nội qui - Quy định</a>
+</div>
+
+<!-- nền -->
+<div class='border rounded-top' align='center'><img src="{% static 'imgs/ltp-bn.jpg' %}" alt="" height="312px" width="820px" class='rounded-top'> <br></div>
+<div class='border'>
+<div align='center'>
+    <img src="{% static 'imgs/ltp-av.jpg' %}" alt="" height="150px" width="150px" class='d-inline'> 
+    <h1 class='d-inline'>Trường THPT Lưu Tấn Phát</h1>
+</div>
+</div>
+
+<!-- thân -->
+<div class='text-center border'>
+<div>
+    <button>THỜI KHÓA BIỂU</button>
+    <button>THÔNG BÁO</button>
+    <button>ẢNH</button>
+    <button>THI TUYỂN</button>
+    <button>=</button>
+</div>
+
+<div class='border'>
+    Lịch sử nhà trường:
+</div>
+</div>
+{% endblock %}
